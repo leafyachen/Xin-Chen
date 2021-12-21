@@ -1,0 +1,53 @@
+
+body {
+    background-color: lemonchiffon;
+  }
+  
+  /* parent */
+  
+  .row {
+    display: flex;
+    line-height: 1.68;
+  }
+  
+  /* children */
+  
+  .column {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .left {
+    /*     background: tomato; */
+    height: 300px;
+  }
+  
+  /* .right {
+        background: green;
+  } */
+  
+  h1 {
+    font-family: "Libre Baskerville", serif;
+    text-transform: capitalize;
+    font-size: 3.68em;
+    line-height: 1.4em;
+  }
+  
+  /* .title {
+    position: fixed;
+    top: 300px;
+  } */
+  
+  .pullquote {
+    color: #d3d3d3;
+    font-family: "Libre Baskerville", serif;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-size: 1.68em;
+  }
+  
+  /* .pullquote:hover {
+    color: pink;
+  } */

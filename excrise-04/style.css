@@ -1,0 +1,77 @@
+body {
+    background-color:white;
+  }
+  
+  /* parent */
+  
+  .row {
+    display: flex;
+    line-height: 1.68;
+  }
+  
+  /* children */
+  
+  .column {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .left {
+    /*     background: white; */
+    height: 300px;
+  }
+  
+  /* .right {
+        background: green;
+  } */
+  
+  h1 {
+    font-family: "Libre Baskerville", serif;
+    text-transform: capitalize;
+    font-size: 3.68em;
+    line-height: 1.4em;
+  }
+  
+  /* .title {
+    position: fixed;
+    top: 300px;
+  } */
+  
+  .pullquote {
+    color:slategray;
+    font-family: "Libre Baskerville", serif;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-size: 1.68em;
+  }
+  
+  /* .pullquote:hover {
+    color: pink;
+  } */
+  
+  .container{
+    display: initial;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .item{
+    /* flex-grow: 1; */
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background-color:white;
+    font-size: 24px;
+    display: initial;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+  
+  .item:nth-child(2){
+    flex-grow: 3;
+    background-color: rgb(137, 235, 197);
+    align-self: flex-end;
+  }

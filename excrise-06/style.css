@@ -1,0 +1,24 @@
+/* 1. style the square */
+.square {
+    width: 200px;
+    height: 200px;
+    background:blue;
+  }
+  
+  /* 2. write the animation */
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(1000px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .run-animation {
+    animation: slide 8s;
+    animation-iteration-count: 10;
+  }

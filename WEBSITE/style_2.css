@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900$display=swap');
+
+*
+{
+    width:100%;
+    height:100px;
+    background-color:rosybrown;
+    z-index:1000;
+}
+
+body p a {
+    text-decoration:none;
+    padding:6px 15px;
+    color:#fff;
+    border-radius: 20px;
+    border-style:double
+}
+
+body p a:hover ,
+body p a.active
+{
+    background: #fff;
+    color:#2b1055;
+
+}
+
+body p b{
+    margin-left: 860px;
+    color:tomato
+}
+
+html{
+    font: 5px;
+
+}
+
+.box
+{
+    width:30rem;
+    height:30rem;
+    margin:0 auto;
+
+}
+
+.heart{
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+
+.heart div{
+    position:absolute;
+    width:20rem;
+    height:20rem;
+    background:#ff3e3e;
+
+}
+
+.mid{
+    bottom:0;
+    right:0;
+}
+
+.circle{
+    border-radius:50%;
+
+}
+.circle.l{
+    left:0;
+    bottom:0;
+}
+
+.circle.r{
+    right:0;
+    top:0;
+}

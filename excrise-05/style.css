@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color:white;
+}
+
+/* parent */
+
+.row {
+  display: flex;
+  line-height: 1;
+}
+
+/* children */
+
+.column {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.left {
+  /*     background: tomato; */
+  height: 300px;
+}
+
+/* .right {
+      background: green;
+} */
+
+h1 {
+  font-family: "Libre Baskerville", serif;
+  text-transform: capitalize;
+  font-size: 3em;
+  line-height: 1em;
+}
+
+/* .title {
+  position: fixed;
+  top: 300px;
+} */
+
+.pullquote {
+  color: #a04444;
+  font-family: "Libre Baskerville", serif;
+  font-style: italic;
+  letter-spacing: 1px;
+  font-size: 1em;
+}
+
+/* .pullquote:hover {
+  color: pink;
+} */
+
+.container{
+  display: initial;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.item{
+  /* flex-grow: 1; */
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  background-color:yellow;
+  font-size: 24px;
+  display: initial;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.item:nth-child(2){
+  flex-grow: 3;
+  background-color: rgb(150, 192, 95);
+  align-self: flex-end;
+}
